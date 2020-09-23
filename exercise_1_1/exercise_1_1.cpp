@@ -51,6 +51,9 @@ int main() {
 				else {
 					std::cout << "Sorry, I didn't get that. Try again." << std::endl;
 				}
+				for (int i = 0; i < 4; i++) {
+							 std::cout << "wheel at index " << i << " has speed: " << wheel_speeds[i] << std::endl;
+			 	}
 				}
         //
   }
