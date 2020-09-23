@@ -45,7 +45,7 @@ int main(int argc, char** argv) {
 					for (int i = 0; i < 4; i++) {
   					wheel_speeds[i] = 0;
 					}
-					std::cout << "Shutting Down" << std::endl;
+					std::cout << "Shutting down" << std::endl;
 					keep_going = false;
 				}
 				else {
